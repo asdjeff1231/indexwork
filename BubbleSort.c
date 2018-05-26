@@ -1,6 +1,6 @@
 #define SIZE 10
 /*氣泡排序*/
-void bubbleSort(const int *const array, unsigned int size )/*指向常數資料的常數指標*/
+void bubbleSort(const int *array, unsigned int size )/*指向常數資料的非常數指標*/
 	{
 		void swap(int *element1Ptr, int *element2Ptr );
 		unsigned int pass;
