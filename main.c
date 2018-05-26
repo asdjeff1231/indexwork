@@ -3,7 +3,7 @@
 #define SIZE 10
 
 
-void bubbleSort( int *const array, unsigned int size ); /*獶盽计戈盽计夹*/ 
+void bubbleSort(const int *const array, unsigned int size ); /*盽计戈盽计夹*/ 
 
 int main(void) {
 	int a[SIZE]={468,810,34,100,180,360,270,45,90,135};
